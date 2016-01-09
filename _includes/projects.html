@@ -1,18 +1,19 @@
 <section id="projects">
 <div class="container">
-  <h3>Projects</h3>
+  <h3>Academic Projects</h3>
   <div class="panel panel-default">
     <div class="panel-body">
 		<h5>
 			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/adibpat/mythread_ThreadsLibrary">Project 1: User Level Non-Preemptive Threads Library</a></strong>
-			<br>This Threads library is in compliance with POSIX standard. The library provides APIs to create, join, yield and exit threads.
+			<br>This Threads library is in compliance with POSIX standard. The library provides APIs to create, join, yield and exit kernel threads.
 			The threads are light-weight threads created with the <strong>clone()</strong> system call. The special feature of this threading library is 
 			the <strong>FUTEX</strong> (Fast-User-Level-Mutex). The number of active light-weight processes is controlled with the FUTEX.
 		</h5>
 		<h5>
-			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="#">Project 2</a></strong>
-			- An eripuit phaedrum qui, nec facer splendide ex, vel ea assum facilisi convenire.
-			Te his neglegentur consectetuer.
+			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="https://github.com/adibpat/mythread_sync">Project 2: Synchronization Primitives for User-Level Threading Library</a></strong>
+			<br>This project provides APIs of the sysnchronization primitives - Mutexes, Conditional Variables and Barriers. 
+			These methods have the same signature as their corresponding counterparts in the POSIX threads standard with pthread_ replaced by mythread_.
+			The lock implementation uses an early+late back-off test-and-test-and-set (TTS) lock with a threshold of 50 tries for busy-wait looks.
 		</h5>
     	<h5>
 			<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="#">Project 3</a></strong>
